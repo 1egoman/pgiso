@@ -14,14 +14,14 @@ import pygame, world
 
 # init
 pygame.init()
-s = pygame.display.set_mode((self.w, self.h), RESIZABLE)
-w = world.map(s, 10, 10)
+s = pygame.display.set_mode((500, 500))
+w = world.map(s, 3, 3)
 
 
 while True:
   # make sure it doesn't crash
-  for event in pygame.events.get():
-    if event.type == QUIT: break
+  for event in pygame.event.get():
+    if event.type == pygame.QUIT: break
     
   # render world
   w.render()
