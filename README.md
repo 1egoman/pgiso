@@ -1,12 +1,15 @@
 #Pygame Isometric Engine#
 
-*Requirements*
+**Requirements**
 - Python (I use 2.7, anything above should work)
 - Pygame (http://pygame.org)
 - GameObjects (It should be included, but otherwise https://code.google.com/p/gameobjects/)
 
-*Examples*
-1. Check main.py for a working example
+**Examples**
+
+Check main.py for a working example
+
+#*OR*#
 
 Try something along these lines:
 ```python
